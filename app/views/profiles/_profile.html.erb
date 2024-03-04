@@ -1,31 +1,25 @@
 <div id="<%= dom_id profile %>">
   <p>
-    <strong>Name:</strong>
     <%= profile.name %>
   </p>
 
   <p>
-    <strong>Youtube:</strong>
-    <%= profile.youtube %>
+    <%= link_to profile.youtube, profile.youtube %>
   </p>
 
   <p>
-    <strong>Twitch:</strong>
-    <%= profile.twitch %>
+    <%= link_to profile.twitch %>
   </p>
 
   <p>
-    <strong>Twitter:</strong>
-    <%= profile.twitter %>
+    <%= link_to profile.twitter %>
   </p>
 
   <p>
-    <strong>Email:</strong>
     <%= profile.email %>
   </p>
 
   <p>
-    <strong>Other:</strong>
     <%= profile.other %>
   </p>
 
