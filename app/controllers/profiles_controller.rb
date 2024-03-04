@@ -48,14 +48,14 @@ class ProfilesController < ApplicationController
   end
 
   # DELETE /profiles/1 or /profiles/1.json
-  def destroy
-    @profile.destroy
+  # def destroy
+  #   @profile.destroy
 
-    respond_to do |format|
-      format.html { redirect_to profiles_url, notice: "Profile was successfully destroyed." }
-      format.json { head :no_content }
-    end
-  end
+  #   respond_to do |format|
+  #     format.html { redirect_to profiles_url, notice: "Profile was successfully destroyed." }
+  #     format.json { head :no_content }
+  #   end
+  # end
 
   private
     # Use callbacks to share common setup or constraints between actions.
